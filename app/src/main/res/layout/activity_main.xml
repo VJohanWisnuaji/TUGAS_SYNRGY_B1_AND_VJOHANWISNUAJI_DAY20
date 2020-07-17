@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#A5F436"
+android:orientation="vertical"
+tools:context=".ConstraintLayoutActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dp"
+    android:fontFamily="sans-serif-black"
+    android:gravity="center"
+    android:text="Navigasi Tugas View Group"
+    android:textSize="32sp" />
+
+<Button
+    android:id="@+id/btn_scroll_view"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_dark_greend"
+    android:gravity="center"
+    android:text="Scroll View" />
+
+<Button
+    android:id="@+id/btn_grid_layout"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_light_green"
+    android:gravity="center"
+    android:text="Grid Layout" />
+
+<Button
+    android:id="@+id/btn_table_layout"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_dark_greend"
+    android:gravity="center"
+    android:text="Table Layout" />
+
+<Button
+    android:id="@+id/btn_frame_layout"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_light_green"
+    android:gravity="center"
+    android:text="Frame Layout" />
+
+<Button
+    android:id="@+id/btn_card_view"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_dark_greend"
+    android:gravity="center"
+    android:text="Card View" />
+
+<Button
+    android:id="@+id/btn_relative_layout"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_light_green"
+    android:gravity="center"
+    android:text="Relative Layout" />
+
+<Button
+    android:id="@+id/btn_constraint_layout"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginVertical="15dp"
+    android:background="@drawable/button_dark_greend"
+    android:gravity="center"
+    android:text="Constraint Layout" />
+
+</LinearLayout>
