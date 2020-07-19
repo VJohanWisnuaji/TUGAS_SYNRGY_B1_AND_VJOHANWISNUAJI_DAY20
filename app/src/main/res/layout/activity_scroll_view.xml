@@ -80,7 +80,6 @@
             android:id="@+id/tv_lyrics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="5dp"
             android:layout_marginHorizontal="20dp"
             android:layout_marginBottom="20dp"
@@ -88,4 +87,6 @@
             android:textAlignment="textStart"
             android:textSize="24sp" />
     </ScrollView>
+
+
 </GridLayout>
